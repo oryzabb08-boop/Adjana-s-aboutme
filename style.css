@@ -354,6 +354,7 @@ body {
     .kartu-nonton {
         width: 80%;
         height: auto;
+        margin-top: 5px;
     }
 
     .tombol-sosmed {
