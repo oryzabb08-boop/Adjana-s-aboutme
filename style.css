@@ -346,7 +346,7 @@ body {
     .container-currently {
         flex-direction: column;
         align-items: center;
-        gap: 50px;
+        gap: 5px;
     }
 
     .kartu-musik,
