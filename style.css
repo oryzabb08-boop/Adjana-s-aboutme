@@ -96,29 +96,29 @@ body {
 
 .kartu-info h1 {
     font-size: 30px;
-    margin: 0;
-    margin-bottom: 5px;
+    margin: 0 0 5px;
 }
 
 .kartu-info h2 {
     font-size: 20px;
-    margin: 0;
-    margin-bottom: 5px;
+    margin: 0 0 5px;
 }
 
 .kartu-info h3 {
     font-size: 18px;
-    margin: 0;
-    margin-bottom: 5px;
+    margin: 0 0 5px;
 }
 
 .container-currently {
-    animation: muncul 2s ease forwards;
+    animation: muncul 1s ease forwards;
+    animation-delay: 0.5s;
+    animation-fill-mode: both;
     display: flex;
     gap: 10px;
     margin-top: 10px;
     width: 100%;
     justify-content: center;
+    
 }
 
 .kartu-musik {
@@ -145,16 +145,12 @@ body {
 
 .kartu-musik h2 {
     font-size: 15px;
-    margin: 0;
-    margin-top: 0px;
-    margin-bottom: 1px;
+    margin: 0 0 3px;
 }
 
 .judul-musik {
     font-size: 13px;
-    margin: 0;
-    margin-top: 0px;
-    margin-bottom: 3px;
+    margin: 0 0 3px;
     text-decoration: none;
     color: inherit;
     transition: 0.3s;
@@ -217,16 +213,12 @@ body {
 
 .kartu-game h2 {
     font-size: 15px;
-    margin: 0;
-    margin-top: 0px;
-    margin-bottom: 1px;
+    margin: 0 0 1px;
 }
 
 .judul-game {
     font-size: 13px;
-    margin: 0;
-    margin-top: 0px;
-    margin-bottom: 3px;
+    margin: 0 0 3px;
     text-decoration: none;
     color: inherit;
     transition: 0.3s;
@@ -263,29 +255,25 @@ body {
 
 .kartu-nonton h2 {
     font-size: 15px;
-    margin: 0;
-    margin-top: 0px;
-    margin-bottom: 1px;
+    margin: 0 0 1px;
 }
 
 .judul-nonton {
     font-size: 13px;
-    margin: 0;
-    margin-top: 0px;
-    margin-bottom: 3px;
+    margin: 0 0 3px;
     text-decoration: none;
     color: inherit;
     transition: 0.3s;
 }
 .kartu-nonton h3 {
     font-size: 13px;
-    margin: 0;
-    margin-top: 0px;
-    margin-bottom: 3px;
+    margin: 0 0 3px;
 }
 
 .container-sosmed {
-    animation: muncul 3s ease forwards;
+    animation: muncul 1s ease forwards;
+    animation-delay: 1s;
+    animation-fill-mode: both;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -306,7 +294,7 @@ body {
     border-radius: 10px;
     box-shadow: 4px 8px 12px rgb(0, 0, 0);
     text-decoration: none;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 @media (max-width: 690px) {
